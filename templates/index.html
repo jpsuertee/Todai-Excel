@@ -1,7 +1,17 @@
 {% extends 'main.html' %}
 
 {% block head %}
-<div> Hello World </div>
+<h1 class='bg-info'> Stats Testing </h1>
 {% endblock %}
 
+{% block body %}
+
+<form class="text-center" action="data" method="POST">
+    <div class="top-buffer">
+        <input type="file" name="excel-file" value="" accept=".xls,.xlsx">
+        <input type="submit" name="Submit" value="Submit">
+    </div>
+</form>
+
 {% endblock %}
+

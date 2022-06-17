@@ -1,5 +1,4 @@
 venv/
-
-instance/*
-
+instance/
 __pycache__/
+node_modules/
